@@ -1,0 +1,29 @@
+.posts{
+    min-height: 300px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5px auto;
+}
+.post{
+    width: 45%;
+    margin: 5px 5px;
+    background-color: lightgray;
+
+}
+.post-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.post-footer img{
+    border-radius: 50%;
+    width: 25%;
+    height: 25%;
+}
+.post-footer h4{
+    display: inline-block;
+    margin-left: 25px;
+}

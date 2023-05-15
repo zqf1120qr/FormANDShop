@@ -8,11 +8,11 @@ import "./index.css";
 
 export default function Carousel() {
     const imgs = [
-        require("../img/2-1.jpg"),
-        require("../img/2-2.jpg"),
-        require("../img/2-3.jpg"),
-        require("../img/2-4.jpg"),
-        require("../img/2-5.jpg"),
+        require("../../assets/img/2-1.jpg"),
+        require("../../assets/img/2-2.jpg"),
+        require("../../assets/img/2-3.jpg"),
+        require("../../assets/img/2-4.jpg"),
+        require("../../assets/img/2-5.jpg"),
     ]
     return (
         <Swiper

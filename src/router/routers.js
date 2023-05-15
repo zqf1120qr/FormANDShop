@@ -1,6 +1,6 @@
 import Post from '../pages/Post'
 import Forum from '../pages/Forum'
-import GoodDetail from '../pages/GoodDetail'
+import Detail from '../pages/Detail'
 import Home from '../pages/Home'
 import Like from '../pages/Like'
 import Me from '../pages/Me'
@@ -25,7 +25,12 @@ export const routes=[
     {
         path:'/post',
         element:<Post/>
-    },{
+    },
+    {
+        path:'/detail',
+        element:<Detail/>
+    },
+    {
         path:'/',
         element: <Navigate to='/home'/>
     }

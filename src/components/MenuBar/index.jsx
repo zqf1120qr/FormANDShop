@@ -32,14 +32,19 @@ export default function MenuBar() {
         window.scrollTo(0,0);
     };
     return (
-        <TabBar
-            className='tabBar'
-            activeKey={location.pathname}
-            onChange={value => setRouteActive(value)}>
-            {items.map(item => (
-                <TabBar.Item key={item.key} icon={item.icon} title={item.title} />
-            ))}
-        </TabBar>
+        <>
+            <div style={{height:'70px'}}></div>
+            <TabBar
+                className='tabBar'
+                activeKey={location.pathname}
+                onChange={value => setRouteActive(value)}>
+                {items.map(item => (
+                    <TabBar.Item key={item.key} icon={item.icon} title={item.title} />
+                ))}
+            </TabBar>
+
+        </>
+
     );
 }
 

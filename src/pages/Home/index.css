@@ -3,16 +3,14 @@
     padding: 0;
 }
 .container{
-    height: 300px;
+    min-height: 300px;
     width: 90%;
     display: flex;
     flex-direction: row;
     margin: 5px auto;
-    color: #d11a2d;
 }
 .left{
     border-radius: 3%;
-    /*background-color: #f8f4ed;*/
     padding: 5px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
@@ -20,12 +18,18 @@
     width: 90%;
     height: 80%;
     display: block;
-    margin: 5px auto;
-
+    margin: 0 auto;
+    border-radius: 5%;
+}
+.left .bottom{
+    width: 85%;
+    margin: 0 auto;
+    padding: 7px;
 }
 .price{
     display: inline-block;
     color: #d11a2d;
+    margin: 5px 0;
 }
 .right{
     flex: 1;
@@ -36,12 +40,27 @@
     width: 90%;
     flex:1;
     margin: 2px auto;
-    border-radius: 3%;
     padding: 5px;
+    border-radius: 3%;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 .every img{
     width: 80px;
     height: 80px;
-    
+    display: block;
+    border-radius: 5%;;
+}
+.every .words{
+    margin-left: 15%;
+}
+.moreGoods{
+    min-height: 300px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5px auto;
 }
