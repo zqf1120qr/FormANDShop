@@ -147,7 +147,8 @@ export default function Detail() {
     const [visible, setVisible] = useState(false)
     const navigate = useNavigate()
     const back = () => {
-        navigate('/home')
+        window.history.go(-1)
+        window.scrollTo(0,0)
     }
     const right = (
         <>

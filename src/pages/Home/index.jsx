@@ -44,6 +44,7 @@ export default function Home() {
     const navigate=useNavigate()
     const  goDetail = () => {
         navigate('/detail')
+        window.scrollTo(0,0)
     }
     return (
         <PullToRefresh>
