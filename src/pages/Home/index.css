@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 300px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    margin: 5px auto;
+    color: #d11a2d;
+}
+.left{
+    border-radius: 3%;
+    /*background-color: #f8f4ed;*/
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.left img{
+    width: 90%;
+    height: 80%;
+    display: block;
+    margin: 5px auto;
+
+}
+.price{
+    display: inline-block;
+    color: #d11a2d;
+}
+.right{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.every{
+    width: 90%;
+    flex:1;
+    margin: 2px auto;
+    border-radius: 3%;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.every img{
+    width: 80px;
+    height: 80px;
+    
+}
