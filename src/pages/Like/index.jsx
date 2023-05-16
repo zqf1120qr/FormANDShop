@@ -61,11 +61,11 @@ export default function Like() {
                     divs.map((good, index) => {
                         return (
                             <div key={index} className='every' style={{height:'130px'}} onClick={goDetail}>
-                                <img src='http://t13.baidu.com/it/u=3030051112,1950393014&fm=224&app=112&f=JPEG?w=500&h=500' alt=""/>
-                                <div className="words">
+                                <img style={{marginLeft:'5%'}} src='http://t13.baidu.com/it/u=3030051112,1950393014&fm=224&app=112&f=JPEG?w=500&h=500' alt=""/>
+                                <div className="words" style={{marginLeft:'15%'}}>
                                     <h2>{good.name}</h2>
                                     <br/>
-                                    <h3 style={{marginLeft:'5px'}}>{good.parameter}</h3>
+                                    <h3 style={{marginLeft:'10%'}}>{good.parameter}</h3>
                                     <br/>
                                     <p style={{color:'#d11a2d'}}>
                                         ￥

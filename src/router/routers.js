@@ -5,6 +5,7 @@ import Home from '../pages/Home'
 import Like from '../pages/Like'
 import Me from '../pages/Me'
 import {Navigate} from 'react-router-dom'
+import MyPost from "../pages/MyPost";
 export const routes=[
     {
         path:'/home',
@@ -29,6 +30,9 @@ export const routes=[
     {
         path:'/detail',
         element:<Detail/>
+    },{
+        path:'/mypost',
+        element:<MyPost/>
     },
     {
         path:'/',

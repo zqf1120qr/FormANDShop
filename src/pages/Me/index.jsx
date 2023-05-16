@@ -6,7 +6,7 @@ import './index.css'
 import {useNavigate} from "react-router-dom";
 const items=[
     {
-        value: 'post',
+        value: 'mypost',
         title: '帖子',
 
     },{
@@ -29,7 +29,7 @@ export default function Me() {
     return (
         <div>
             <div style={{width:'90%',margin:'20px auto',display:'flex'}}>
-                <img style={{ flex:'1','width': '150px',display:'inline-block' }} src='https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F202008%2F12%2F20200812105950_4WFTF.thumb.1000_0.jpeg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1686754915&t=37f92d12f25547c9ce318ca05b3719a3' alt=''/>
+                <img style={{ flex:'1','width': '150px',display:'inline-block',borderRadius:'8%' }} src='https://img1.baidu.com/it/u=2231549623,3237765525&fm=253&fmt=auto&app=138&f=JPEG?w=501&h=500' alt=''/>
                 <div style={{flex:'2',marginLeft:'20px',fontSize:'20px',display:'flex',flexDirection:'column',justifyContent: 'space-around'}}>
                     <p><strong>昵称</strong>：xxx</p>
                     <p><strong>账号</strong>：123456xxx</p>

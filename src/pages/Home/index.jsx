@@ -57,18 +57,18 @@ export default function Home() {
             </CapsuleTabs>
             <div className='container'>
                 <div className="left" style={{
-                    flex: '1',
+                    flex: '7',
                 }}
                      onClick={goDetail}
                 >
                     <img src={require('../../assets/img/2-2.jpg')} alt=""/>
                     <div className="bottom">
-                        <h2>小米11</h2>
+                        <h3>小米11</h3>
                         <div className='price'>
                             ￥
-                            <h2 style={{display: 'inline-block'}}>
+                            <h3 style={{display: 'inline-block'}}>
                                 2999
-                            </h2>
+                            </h3>
                         </div>
                         <p style={{
                             display: 'inline-block',
@@ -78,19 +78,19 @@ export default function Home() {
                         }}>已售10w+件</p>
                     </div>
                 </div>
-                <div className="right" style={{flex: '1', display: 'flex'}}>
+                <div className="right" style={{flex: '8', display: 'flex'}}>
                     {
                         divs.map((good, index) => {
                             return (
                                 <div key={index} className='every' onClick={goDetail}>
                                     <img src={require(`../../assets/img/2-${index % 5 + 1}.jpg`)} alt=""/>
                                     <div className="words">
-                                        <h2>{good.name}</h2>
+                                        <h3>{good.name}</h3>
                                         <p className='price'>
                                             ￥
-                                            <h2 style={{display:'inline-block'}}>
+                                            <h3 style={{display:'inline-block'}}>
                                                 {good.price}
-                                            </h2>
+                                            </h3>
                                         </p>
                                         <p style={{color:'#666'}}>已售{good.sale}+件</p>
                                     </div>
@@ -116,12 +116,12 @@ export default function Home() {
                             >
                                 <img src={require(`../../assets/img/2-${index % 5 + 1}.jpg`)} alt=""/>
                                 <div className="bottom">
-                                    <h2>小米11</h2>
+                                    <h3>小米11</h3>
                                     <div className='price'>
                                         ￥
-                                        <h2 style={{display: 'inline-block'}}>
+                                        <h3 style={{display: 'inline-block'}}>
                                             2999
-                                        </h2>
+                                        </h3>
                                     </div>
                                     <p style={{
                                         display: 'inline-block',

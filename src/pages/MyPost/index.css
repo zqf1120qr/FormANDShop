@@ -1,0 +1,33 @@
+.my-header{
+    width: 100%;
+    height: 150px;
+    background: 10% url("https://s1.ax1x.com/2023/05/16/p924bDI.jpg");
+    display: flex;
+}
+.my-header img{
+    flex: 1;
+    width: 30%;
+    border-radius: 50%;
+    margin: 20px 20px;
+}
+.my-header h2{
+    flex: 2;
+    display: inline-block;
+    margin-top: 20%;
+}
+.date{
+    display: flex;
+}
+.date h2{
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.date .img{
+    flex: 2;
+
+    margin: 20px 20px;
+}
+.date .img img{
+    width: 60%;
+}

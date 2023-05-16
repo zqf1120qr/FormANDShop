@@ -81,12 +81,12 @@ export default function Post() {
                 <Button
                     color='primary'
                     fill='outline'
-                    style={{width:'30%',margin: '10px 10px'}}
+                    style={{width:'25%',margin: '5% 5%'}}
                 >存草稿</Button>
                 <Button
                     color='primary'
                     fill='solid'
-                    style={{width:'60%',margin: '10px 10px'}}
+                    style={{width:'50%',margin: '5% 5%'}}
                 >发布</Button>
             </div>
 
