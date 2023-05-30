@@ -67,12 +67,12 @@ export default function Like() {
                                     <br/>
                                     <h3 style={{marginLeft:'10%'}}>{good.parameter}</h3>
                                     <br/>
-                                    <p style={{color:'#d11a2d'}}>
+                                    <div style={{color:'#d11a2d'}}>
                                         ￥
                                         <h2 style={{display:'inline-block'}}>
                                             {good.price}
                                         </h2>
-                                    </p>
+                                    </div>
                                 </div>
 
                             </div>
