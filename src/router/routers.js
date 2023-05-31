@@ -6,6 +6,10 @@ import Like from '../pages/Like'
 import Me from '../pages/Me'
 import Login from '../pages/Login'
 import Register from '../pages/Register'
+import Wallet from '../pages/Wallet'
+import Setting from '../pages/Setting'
+import Profile from '../pages/Profile'
+import PostDetail from '../pages/PostDetail'
 import {Navigate} from 'react-router-dom'
 import MyPost from "../pages/MyPost";
 export const routes=[
@@ -41,6 +45,18 @@ export const routes=[
     },{
         path:'/register',
         element:<Register/>
+    },{
+        path:'/wallet',
+        element:<Wallet/>
+    },{
+        path:'/setting',
+        element:<Setting/>
+    },{
+        path:'/profile',
+        element:<Profile/>
+    },{
+        path:'/postDetail',
+        element:<PostDetail/>
     },
     {
         path:'/',

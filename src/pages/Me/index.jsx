@@ -33,7 +33,7 @@ export default function Me() {
                 <div style={{flex:'2',marginLeft:'20px',fontSize:'20px',display:'flex',flexDirection:'column',justifyContent: 'space-around'}}>
                     <p><strong>昵称</strong>：xxx</p>
                     <p><strong>账号</strong>：123456xxx</p>
-                    <p><strong>个性签名</strong>：请输入内容...</p>
+                    <p><strong>简介</strong>：请输入内容...</p>
                 </div>
             </div>
             <div style={{width:'90%' ,margin:'20px auto'}}>

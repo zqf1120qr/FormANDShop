@@ -2,6 +2,7 @@ import React from 'react';
 import MenuBar from "../../components/MenuBar";
 import './index.css'
 import {CapsuleTabs, SearchBar} from "antd-mobile";
+import {useNavigate} from "react-router-dom";
 const tabs=[
     {
         title: '发现'
@@ -55,6 +56,7 @@ const posts=[
     }
 ]
 export default function Forum() {
+    const navigate=useNavigate()
     return (
         <div>
             <SearchBar placeholder='请输入搜索内容' style={{margin: '5px auto', width: "90%"}}/>
@@ -67,7 +69,7 @@ export default function Forum() {
                 {
                     posts.map((post,index)=>{
                         return (
-                            <div key={index} className='post'>
+                            <div key={index} className='post' onClick={()=>{navigate('/postDetail');window.scrollTo(0,0)}}>
                                 <img src={post.img} width='100%' alt=""/>
                                 <p style={{fontSize:'15px',display:'block',margin:'3px 0'}}>{post.description}</p>
                                 <div className='post-footer'>

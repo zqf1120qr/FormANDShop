@@ -48,7 +48,7 @@ export default function Index() {
                     <Input placeholder='请输入账号' />
                 </Form.Item>
                 <Form.Item name='password' label='密码' rules={[{ required: true }]}>
-                    <Input placeholder='请输入密码' />
+                    <Input placeholder='请输入密码' type='password'/>
                 </Form.Item>
             </Form>
         </div>
