@@ -29,6 +29,7 @@ export default function MenuBar() {
     const location = useLocation();
     const setRouteActive = e => {
         navigate(e);
+        console.log(e)
         window.scrollTo(0,0);
     };
     return (

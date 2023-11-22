@@ -44,7 +44,7 @@ const divs=[
 export default function Like() {
     const navigate=useNavigate()
     const  goDetail = () => {
-        navigate('/detail')
+        navigate('/detail',{state: {'id':1}})
         window.scrollTo(0,0)
     }
     return (
